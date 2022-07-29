@@ -9,6 +9,7 @@ import Footer from './Pages/CommonPages/Footer';
 import ProjectDetails from './Pages/HomePage/ProjectDetails';
 import Education from './Pages/Education/Education';
 import Blogs from './Pages/Blogs/Blogs';
+import NotFound from './Pages/NotFound/NotFound'
 
 
 
@@ -60,6 +61,8 @@ function App() {
           <Route path="/portfolio#resume" element={ } />
           <Route path="/portfolio#services" element={ } />
           <Route path="/portfolio#blogs" element={ } /> */}
+
+          <Route path='*' element={<NotFound />} />
         </Routes>
 
         <Footer />
