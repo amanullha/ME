@@ -1,0 +1,85 @@
+@media screen and (max-width: 660px) {
+  .imgSize{
+    width: 150px;
+  }
+  .project-image img{
+      height: 200px;
+  }
+
+}
+  .BXshade{
+      border-radius: 15px;
+      box-shadow: 5px 5px 10px 10px #e8eaf0, -3px -3px 10px 10px #32373d;
+
+  }
+  .BXshade:HOVER{
+      box-shadow: 5px 5px 10px 10px #e8eaf0, -3px -3px 10px 10px #22262a;
+
+  }
+
+  .social {
+  cursor: pointer;
+  font-size: 20px;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  position: relative;
+  bottom: 0px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50% 30% 50% 30%;
+  /* background: linear-gradient(-45deg, #212428, #212428); */
+  box-shadow: 5px 5px 10px #101113, -3px -3px 10px #32373d;
+  transition: all 0.3s ease-in-out;
+}
+.social:hover {
+  border-radius: 30% 50% 30% 50%;
+  /* position: relative;
+  bottom: 5px; */
+  /* background: linear-gradient(-45deg, #19191b, #23272b); */
+  transition: all 0.2s ease-in-out;
+}
+
+.skill-shadow{
+    box-shadow: 5px 5px 10px #101113, -3px -3px 10px #32373d;
+
+}
+
+.project-image img{
+  width: 100%;
+  height: 300px;
+  object-position: top;
+  object-fit: cover;
+  transition: 5s all ease;
+  border-radius: 8px;
+}
+.skill-shadow:hover .project-image img{
+  object-position: bottom;
+}
+
+.description-image img{
+  width: 100%;
+  /* height: 300px; */
+  object-position: top;
+  object-fit: cover;
+  transition: 5s all ease;
+  border-radius: 8px;
+}
+.skill-shadow:hover .description-image img{
+  object-position: bottom;
+}
+
+
+.hover-shadow:hover {
+      box-shadow: 5px 5px 10px #101113, -3px -3px 10px #32373d;
+      padding: 8px 18px;
+      border-radius: 6px;
+
+}
+
+.paticipation-hover-shadow {
+      box-shadow: 5px 5px 10px #101113, -3px -3px 10px #32373d;
+      padding: 16px 18px;
+      border-radius: 6px;
+
+}

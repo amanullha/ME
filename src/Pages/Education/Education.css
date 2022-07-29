@@ -1,0 +1,26 @@
+
+
+.parent-card{
+
+}
+
+
+.card-moving-animation{
+
+    margin-right: 5px;
+    transition: margin-right 2s;
+
+}
+
+
+.parent-card:hover .card-moving-animation {
+
+    margin-right: 30px;
+}
+
+.box-shadow{
+    box-shadow: 5px 5px 10px #101113, -3px -3px 10px #32373d;
+
+}
+
+/* overflow-hidden transition ease-in   hover:-translate-x-5  duration-3000 */
