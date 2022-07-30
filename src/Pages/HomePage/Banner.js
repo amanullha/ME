@@ -82,7 +82,7 @@ const Banner = () => {
 
 
 
-        <div className={bgColor}>
+        <div className={`${bgColor} relative overflow-hidden`} >
 
             <div className="hero min-h-screen  ">
 
@@ -97,7 +97,7 @@ const Banner = () => {
 
                             <div className={`mask mask-pentagon  flex justify-items-center drop-shadow-2xl ${bgColor}`}>
 
-                                <div className={`px-32 ${bgColor}`}>
+                                <div className={`px-5 sm:px-32 ${bgColor}`}>
                                     <img src={icpc} className=" imgSize px-5 py-10  max-w-sm " />
                                 </div>
 

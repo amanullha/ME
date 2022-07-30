@@ -7,6 +7,14 @@
   }
 
 }
+
+@media screen and (max-width: 450px) {
+  
+  .imgSize{
+
+  }
+
+}
   .BXshade{
       border-radius: 15px;
       box-shadow: 5px 5px 10px 10px #e8eaf0, -3px -3px 10px 10px #32373d;

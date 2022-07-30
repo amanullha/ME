@@ -8,7 +8,7 @@ import Skills from './Skills';
 
 const Home = () => {
     return (
-        <div id="home">
+        <div id="home" className='flex flex-col justify-center items-center relative overflow-hidden'>
             <Banner />
 
 
@@ -20,7 +20,6 @@ const Home = () => {
 
             <Experience />
 
-            {/* <Education /> */}
 
             <Contact />
 

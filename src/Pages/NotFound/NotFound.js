@@ -9,7 +9,7 @@ const Blogs = () => {
 
 
     return (
-        <div class={`hero min-h-screen ${bgColor}`}>
+        <div class={`hero min-h-screen ${bgColor} relative overflow-hidden`}>
             <div class="hero-content text-center">
 
                 <div class="max-w-md">

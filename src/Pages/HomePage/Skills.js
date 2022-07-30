@@ -317,7 +317,7 @@ const Skills = () => {
 
 
     return (
-        <div id='skills' className={`${bgColor} hero min-h-screen flex flex-col py-16 `}>
+        <div id='skills' className={`${bgColor} hero min-h-screen flex flex-col py-16 relative overflow-hidden `}>
 
             <div className="hero-content flex flex-col">
 

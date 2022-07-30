@@ -171,7 +171,7 @@ const ProjectDetails = () => {
   return (
     <div
       id="projects"
-      className={`${bgColor} hero min-h-screen flex flex-col py-16 `}
+      className={`${bgColor} hero min-h-screen flex flex-col py-16 relative overflow-hidden`}
     >
       <div className="w-full hero-content  justify-center items-center">
         <div className="w-full ">

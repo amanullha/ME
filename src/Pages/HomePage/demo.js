@@ -25,7 +25,7 @@ const Contact = () => {
 
 
     return (
-        <div>
+        <div className='relative overflow-hidden'>
 
 
 

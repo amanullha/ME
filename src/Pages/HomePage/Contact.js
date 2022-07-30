@@ -38,7 +38,7 @@ const Contact = () => {
 
 
     return (
-        <div id='contact'>
+        <div id='contact' className='relative overflow-hidden'>
 
 
 

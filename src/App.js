@@ -62,7 +62,9 @@ function App() {
           <Route path="/portfolio#services" element={ } />
           <Route path="/portfolio#blogs" element={ } /> */}
 
-          <Route path='*' element={<NotFound />} />
+          {/* <Route path='*' element={<NotFound />} /> */}
+
+
         </Routes>
 
         <Footer />

@@ -65,7 +65,7 @@ const Participation = () => {
 
 
     return (
-        <div id='participation' className={`${bgColor} hero min-h-screen flex flex-col py-16 `}>
+        <div id='participation' className={`${bgColor} hero min-h-screen flex flex-col py-16 relative overflow-hidden`}>
 
             <div className="w-full hero-content  justify-start items-start">
 
