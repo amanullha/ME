@@ -70,8 +70,8 @@ const EducationCard = ({ e }) => {
 
             <div className='items-center py-5 absolute h-full w-full z-10'>
 
-                {/* <div class="divider text-black items-center"></div> */}
-                {/* <span class="h-1 w-full bg-purple-600 lg:w-1/3"></span> */}
+                {/* <div className="divider text-black items-center"></div> */}
+                {/* <span className="h-1 w-full bg-purple-600 lg:w-1/3"></span> */}
 
                 <h1 className='bg-gray-400 py-1 w-3/4 mx-12'></h1>
 

@@ -9,12 +9,12 @@ const Blogs = () => {
 
 
     return (
-        <div class={`hero min-h-screen ${bgColor}`}>
-            <div class="hero-content text-center">
+        <div className={`hero min-h-screen ${bgColor}`}>
+            <div className="hero-content text-center">
 
-                <div class="max-w-md">
+                <div className="max-w-md">
 
-                    <h1 class="text-5xl font-bold text-green-500">Coming soon...</h1>
+                    <h1 className="text-5xl font-bold text-green-500">Coming soon...</h1>
 
                 </div>
 

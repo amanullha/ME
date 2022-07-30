@@ -35,7 +35,7 @@ const SingleParticipation = ({ project }) => {
             data-aos-delay="200"
         >
             <div className=' '>
-                <img className=' h-60 w-full rounded-md' src={project.image} alt="" srcset="" />
+                <img className=' h-60 w-full rounded-md' src={project.image} alt="" srcSet="" />
             </div>
 
 

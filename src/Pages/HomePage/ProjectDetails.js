@@ -189,7 +189,7 @@ const ProjectDetails = () => {
           data-aos-delay="200"
         >
           <div className="description-image lg:pr-12 px-2">
-            <img className='h-[400px] lg:h-[800px] w-full object-cover' src={project?.image} alt="" srcset="" />
+            <img className='h-[400px] lg:h-[800px] w-full object-cover' src={project?.image} alt="" srcSet="" />
           </div>
 
           <div className="flex flex-col">

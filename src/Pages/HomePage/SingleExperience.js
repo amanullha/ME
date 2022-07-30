@@ -34,7 +34,7 @@ const SingleExperience = ({ project }) => {
             data-aos-delay="200"
         >
             <div className=' '>
-                <img className=' h-40 w-full rounded-md' src={project.image} alt="" srcset="" />
+                <img className=' h-40 w-full rounded-md' src={project.image} alt="" srcSet="" />
             </div>
 
 
@@ -56,7 +56,7 @@ const SingleExperience = ({ project }) => {
                 </h1>
                 <ul className='ml-5'>
                     {
-                        project.responsibilities.map(r=><li className='text-gray-400 list-disc'>{r}</li>)
+                        project.responsibilities.map((r,i) => <li key={i} className='text-gray-400 list-disc'>{r}</li>)
                     }
                 </ul>
 
@@ -70,7 +70,7 @@ const SingleExperience = ({ project }) => {
 
 
                     <div className=''>
-                        <img className='w-16' src={project.organizationLogo} alt="" srcset="" />
+                        <img className='w-16' src={project.organizationLogo} alt="" srcSet="" />
                     </div>
 
                     <h1 className='text-gray-300'>{project.organization}</h1>

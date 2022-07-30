@@ -42,7 +42,7 @@ const Contact = () => {
 
 
 
-            <div class={`hero min-h-screen  ${bgColor}  py-0 flex flex-col`}>
+            <div className={`hero min-h-screen  ${bgColor}  py-0 flex flex-col`}>
 
                 <div
                     className="w-full hero-content  justify-start items-start mb-16 mt-20">
@@ -63,7 +63,7 @@ const Contact = () => {
                     data-aos="fade-up-right"
                     data-aos-duration="1500"
 
-                    class=" hero-content flex-col lg:flex-row skill-shadow mx-4 lg:mx-0 px-8 md:px-20 py-24 ">
+                    className=" hero-content flex-col lg:flex-row skill-shadow mx-4 lg:mx-0 px-8 md:px-20 py-24 ">
 
                     <div className='w-full lg:w-1/2 relative'>
                         <img src={imgContact} className="w-full md:h-96 rounded-lg shadow-2xl" />

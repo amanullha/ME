@@ -14,8 +14,8 @@ const Blog = () => {
         <div className='relative overflow-hidden'>
 
 
-            <div class="hero min-h-screen bg-base-200">
-                <div class="hero-content text-center">
+            <div className="hero min-h-screen bg-base-200">
+                <div className="hero-content text-center">
 
                 </div>
             </div>

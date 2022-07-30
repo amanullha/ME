@@ -19,7 +19,7 @@ const SingleSkill = ({ skill }) => {
             data-aos-duration="1000"
             data-aos-delay="500">
             <p className="flex items-center relative bottom-0 hover:bottom-2 transition-all duration-300 py-4 px-5">
-                <img className='rounded-md mr-2' width={35} height={30} src={skill.icon} alt="" srcset="" />
+                <img className='rounded-md mr-2' width={35} height={30} src={skill.icon} alt="" srcSet="" />
                 <span className={`${darkMode ? 'text-blue-100' : 'text-yellow-500'} font-bold`}>{skill.name}</span>
             </p>
         </div>

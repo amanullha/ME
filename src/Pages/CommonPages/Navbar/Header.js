@@ -103,7 +103,7 @@ const Header = () => {
     const menuBar = <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal p-0">
             {
-                headerList.map(h => <li><Link className="text-white" smooth to={h.path}>{h.name}</Link></li>)
+                headerList.map((h, i) => <li key={i}><Link className="text-white" smooth to={h.path}>{h.name}</Link></li>)
             }
             {
                 bgControl
@@ -133,7 +133,7 @@ const Header = () => {
                 </div>
 
                 {
-                    headerList.map(h => <li><Link className="text-white" smooth to={h.path}>{h.name}</Link></li>)
+                    headerList.map((h, i) => <li key={i}><Link className="text-white" smooth to={h.path}>{h.name}</Link></li>)
                 }
             </ul>
 

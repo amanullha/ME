@@ -47,9 +47,9 @@ const Education = () => {
 
         <div className={`w-full ${bgColor}`}>
 
-            <div class="hero min-h-screen overflow-hidden relative">
+            <div className="hero min-h-screen overflow-hidden relative">
 
-                <div class="hero-content text-center w-full  ">
+                <div className="hero-content text-center w-full  ">
 
 
 

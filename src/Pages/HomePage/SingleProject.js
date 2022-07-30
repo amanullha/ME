@@ -37,7 +37,7 @@ const SingleProject = ({ project }) => {
             data-aos-delay="200"
         >
             <div className='project-image '>
-                <img  src={project.image} alt="" srcset="" />
+                <img src={project.image} alt="" srcSet="" />
             </div>
 
 
