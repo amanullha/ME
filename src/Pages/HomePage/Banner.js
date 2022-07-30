@@ -82,9 +82,9 @@ const Banner = () => {
 
 
 
-        <div className={`${bgColor} relative overflow-hidden`} >
+        <div className={`${bgColor} relative overflow-hidden w-full`} >
 
-            <div className="hero min-h-screen  ">
+            <div className={`hero min-h-screen ${bgColor}`}>
 
 
                 <div className="hero-content flex-col lg:flex-row-reverse ">

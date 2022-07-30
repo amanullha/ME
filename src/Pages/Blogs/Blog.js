@@ -11,11 +11,18 @@ const Blog = () => {
 
 
     return (
-        <div class="hero min-h-screen bg-base-200">
-            <div class="hero-content text-center">
+        <div className='relative overflow-hidden'>
 
+
+            <div class="hero min-h-screen bg-base-200">
+                <div class="hero-content text-center">
+
+                </div>
             </div>
-        </div>);
+
+
+        </div>
+    );
 };
 
 export default Blog;
