@@ -13,12 +13,12 @@ const Projects = () => {
     const projects = [
         {
             id: 1,
-            title: 'Painting Vila',
+            title: 'Paint House',
             shortDescription: "Manufacturer Company Website",
             longDescription: "This is a manufacturer's website. The owner/admin of the website will be selling their manufacturing tools and users will order to maintain a minimum range.",
             image: imgPaintingVila,
             links: {
-                live: "https://painting-vila.web.app/home",
+                live: "https://paint-house-e0a95.web.app/",
                 client: "https://github.com/amanullha/Paint-House-Frontend-Side_MERN",
                 server: "https://github.com/amanullha/Paint-House-Backend-Side_MERN",
             },
@@ -42,7 +42,7 @@ const Projects = () => {
             longDescription: "This is an inventory management website. Users will be able to add items and update items. but a user can only delete those items which were added by this user.",
             image: imgStockBinder,
             links: {
-                live: "https://stock-binder-ef7f4.web.app/",
+                live: "https://stock-binder-update.web.app/",
                 client: "https://github.com/amanullha/StockBinder_Client_Side_MERN",
                 server: "https://github.com/amanullha/StockBiner_Server_Side_MERN",
             },
