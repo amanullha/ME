@@ -221,7 +221,7 @@ const ProjectDetails = () => {
               <h1 className="text-blue-200 text-xl font-bold">
                 Project features:
               </h1>
-              <ul className="text-gray-400 tracking-wide p-2 pl-5">
+              <ul className="text-gray-400 tracking-wide p-2 pl-8">
                 {project?.technology?.featuresList?.map((t) => (
                   <li className="my-1 list-decimal text-gray-300">{t}</li>
                 ))}

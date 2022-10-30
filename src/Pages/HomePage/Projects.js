@@ -19,13 +19,13 @@ const Projects = () => {
             image: imgPaintingVila,
             links: {
                 live: "https://painting-vila.web.app/home",
-                client: "https://github.com/amanullha/PaintingVila_Client_MERN",
-                server: "https://github.com/amanullha/PaintingVila_Server_MERN",
+                client: "https://github.com/amanullha/Paint-House-Frontend-Side_MERN",
+                server: "https://github.com/amanullha/Paint-House-Backend-Side_MERN",
             },
             technology: {
                 type: 'web',
                 stack: 'MERN',
-                featuresList: ['Authentication user validation using firebase', 'Supper Admin provides be an admin to user', 'Add/Delete/Update product by an admin', 'Delete unpaid orders by admin', 'Add product to the cart by the user', 'Cancel unpaid order/update product quantity via user and also take reviews', 'Check my orders via user and all theorder / admin / users via admin', 'Check and update the profile of the user/admin', 'Project deploy on firebase(frontEnd) and heroku(backEnd) '],
+                featuresList: ['Authentication user validation using firebase', 'Implement role-based routing', 'Add/Delete/Update product by an admin', 'Delete unpaid orders by admin', 'Add product to the cart by the user', 'Cancel unpaid order/update product quantity via user and also take reviews', 'Check my orders via user and all the order / admin / users via admin', 'Check and update the profile of the user/admin','Used JWT for secure API', 'Project deploy on firebase(frontEnd) and render(backEnd) '],
 
                 frontEnd: ['React JS', 'Tailwind', 'HTML', 'CSS', 'JavaScript', 'DaisyUi', 'Firebase'],
 
@@ -39,17 +39,17 @@ const Projects = () => {
             id: 2,
             title: 'StockBinder',
             shortDescription: "Inventory management website to manage company Stock",
-            longDescription: "This is an inventory management website. user will be able to add items and update items.but a user can only delete those items which were added by this user.",
+            longDescription: "This is an inventory management website. Users will be able to add items and update items. but a user can only delete those items which were added by this user.",
             image: imgStockBinder,
             links: {
                 live: "https://stock-binder-ef7f4.web.app/",
-                client: "https://github.com/amanullha/StockBinder_Client_MERN",
-                server: "https://github.com/amanullha/StockBinder_Server_MERN",
+                client: "https://github.com/amanullha/StockBinder_Client_Side_MERN",
+                server: "https://github.com/amanullha/StockBiner_Server_Side_MERN",
             },
             technology: {
                 type: 'web',
                 stack: 'MERN',
-                featuresList: ['Authentication user validation using firebase', 'Authentication user validation using firebase', 'Explore and Show all the product', 'Show my product and Delete just my products', 'Project deploy on firebase(frontEnd) and heroku(backEnd) ', 'Checking the Humidity of the Solid automatic', 'Implemented using Arduino and Assembly language'],
+                featuresList: ['Authentication user validation using firebase', '. Manage inventories', ' Add/update/delete product via valid admin', 'Dashboard design', ' Role-based route', 'Super admin can be made admin to super', 'admin and super admin to admin', 'Super admin can be deleted admin or a super admin','Used JWT for secure API','Project deploy on firebase(frontEnd) and render(backEnd) '],
 
                 frontEnd: ['React JS', 'Tailwind', 'HTML', 'CSS', 'JavaScript', 'DaisyUi', 'Firebase'],
 
